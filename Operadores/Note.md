@@ -21,7 +21,6 @@ São símbolos especiais utilizados para operações matemáticas, intruções d
     	System.out.println(y);
     	// 25
 
-
 ## Os outros operadores aritméticos básicos.
 
     multiplicação, divisão e subtração, também possuem operadores de atribuição com a operação matemática.
