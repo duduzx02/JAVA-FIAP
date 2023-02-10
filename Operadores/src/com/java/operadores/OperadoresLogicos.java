@@ -14,6 +14,16 @@ public class OperadoresLogicos {
 		boolean suspenso = nrAmarelo == 2 || nrVermelhor == 1;
 		System.out.println(suspenso);
 
+		
+		int x = 12, y = 11;
+		
+		boolean teste = x > 10 ^ y > 10;
+		
+		System.out.println(teste);
+		
+		System.out.println(!true);
+		System.out.println(!false);
+		
 	}
 
 }
