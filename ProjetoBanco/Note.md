@@ -24,6 +24,21 @@
 
 - DIferentemente das variáveis locais, as variáveis de instância recebem valores-padrão quando não atriubímos valores à sua declração.
 
+## Os métodos definem os comportamentos;
+- Que o objeto possui. O comportamento pode ser entendido como uma ação ou serviço.
+
+- Podemos definir um método como um comportamento específico, residente no objeto, que define como ele dever agir quando exigido, definindo assim as habilidades do objeto
+
+- Por convenção, os nomes dos métodos, assim como os seus tributos, devem sempre ser escritvos em lowerCamelCase.
+
+
+
+
+
+
+
+
+
 
 
 
