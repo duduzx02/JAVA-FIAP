@@ -31,6 +31,14 @@
 
 - Por convenção, os nomes dos métodos, assim como os seus tributos, devem sempre ser escritvos em lowerCamelCase.
 
+## Sobrecarga de métodos
+
+- Um método significa prover mais de uma versão de um mesmo método
+- As versões devem, necessariamente, conter parâmetros diferentes, seja no tipo ou número desses parâmetros. O tipo de retorno não pe relevante.
+
+- Duas características diferenciam os métodos com o mesmo nome: o número de parâmetros e o tipo deles. Essas caracteríticas fazem parte da assinatura de um método.
+- O uso de vários métodos com o mesmo nome e assinaturas diferentes é chamado de sobrecarga de métodos.
+
 
 
 
