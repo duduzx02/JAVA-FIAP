@@ -1,16 +1,39 @@
 package br.com.fiap.banco;
 
+import java.io.Serializable;
+
 /*
  * Classe que abstrai uma conta bancária
  * @author Eduardo Lima
  * @version 1.0
  * */
-public class Conta {
+public class Conta implements Serializable {
 
-	int agencia;
-	int numero;
-	double saldo;
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	
+	private int agencia;
+	private int numero;
+	private double saldo;
+	
+	public int getAgencia() {
+		return agencia;
+	}
+
+	public void setAgencia(int agencia) {
+		this.agencia = agencia;
+	}
+
+	public int getNumero() {
+		return numero;
+	}
+
+	public void setNumero(int numero) {
+		this.numero = numero;
+	}
+
 	public Conta() {
 		
 	}
@@ -35,7 +58,7 @@ public class Conta {
 		this.saldo -= valor;
 	}
 	
-	public double verificarSaldo() {
+	public double getSaldo() {
 		return this.saldo;
 	}
 }

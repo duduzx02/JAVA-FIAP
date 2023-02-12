@@ -12,3 +12,51 @@
 - Podemos utilizar um comentário de documentação para de talhar melhor as nossas classes, métodos, atributos e etc.
 - Além do texto que descreve o elemento, podemos utilizar algumas tags para dar um significado próprio a trechos do comentário.
 - Essas tags são precedidas por um sinal de arroba, como @author ou @version.
+
+## JAVABEAN E ENCAPSULAMENTO
+
+- A especificação JavaBeans define diretrizes que ditam os nomes de suas variáveis, os nomes e tipos de retorno de seus métodos e alguns outros aspectos para que o objeto, chamado de beans, seja reutilizável.
+
+-- As Regras para que uma classe seja JavaBean são:
+- ter um construtor padrão, sem argumentos
+- Encapsular os seus atributos, provendo métodos para o acesso a eles em outras classes.
+- É uma boa prática implementar a interface java.io.Serializable
+
+- O encapsulamento é aplicado a método e atributos de uma classe e consiste em proteger os dados ou até mesmo escondê-los
+- O uso de métodos de leitura (get) e (set) visam desacoplar os atributos de uma classe dos clientes que a utilizam.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
