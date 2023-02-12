@@ -19,6 +19,6 @@ public class Teste {
 		Passaro papagaio = new Passaro();
 		papagaio.setAlimenta("Papagaio come ração de passaro!");
 		papagaio.setLocomove("Papagaio tem asas!");
-		papagaio.setPia("Papagaio pia e fala!");
+		papagaio.setPia("Papagaio pia e fala!"); 
 	}
 }

@@ -20,5 +20,12 @@ public class TesteConta {
 		
 		System.out.println(poupanca.getSaldo());
 		
+		
+		ContaCorrente coc = new ContaCorrente();
+		coc.setAgencia(1);
+		coc.setNumero(2222);
+		coc.setTipo("PF");
+		coc.setChequeEspecial(1000);
+		
 	}
 }
