@@ -1,5 +1,10 @@
 package br.com.fiap.banco;
 
+/*
+ * Classe que abstrai uma conta bancária
+ * @author Eduardo Lima
+ * @version 1.0
+ * */
 public class Conta {
 
 	int agencia;
@@ -9,6 +14,12 @@ public class Conta {
 	public Conta() {
 		
 	}
+	
+	/*
+	 * Realiza um depóstio na conta corrente
+	 * @param agencia o número da agencia
+	 * @param agencia o número da conta
+	 */
 
 	public Conta(int agencia, int numero, double saldo) {
 		this.agencia = agencia;
