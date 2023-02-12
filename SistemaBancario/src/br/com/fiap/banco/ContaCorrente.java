@@ -23,6 +23,9 @@ public class ContaCorrente extends Conta {
 		return super.getSaldo() + chequeEspecial;
 	}
 	
-	
+	public void retirar(double valor) {
+		valor += 10;
+		super.sacar(valor);
+	}
 
 }
