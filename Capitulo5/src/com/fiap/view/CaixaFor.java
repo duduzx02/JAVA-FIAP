@@ -1,6 +1,6 @@
 package com.fiap.view;
 
-public class Caixa {
+public class CaixaFor {
 
 	public static void main(String[] args) {
 		int qtdProdutos = 5;
