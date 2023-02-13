@@ -49,13 +49,49 @@ public class CaixaArray {
 //		}
 
 		
-		Produto[][] localizacaoProduto = new Produto[10][3];
+//		Produto[][] localizacaoProduto = new Produto[10][3];
+//		
+//		localizacaoProduto[0][1] = prod1;
+//		localizacaoProduto[1][2] = prod2;
+//		
+//		System.out.println(localizacaoProduto[1][2].getNome());
 		
-		localizacaoProduto[0][1] = prod1;
-		localizacaoProduto[1][2] = prod2;
 		
-		System.out.println(localizacaoProduto[1][2].getNome());
+//	 String nome;
+//	 nome = new String();
+//	 nome = "Maçã";
+//	 System.out.println(nome);
+//	 
+//	 String nome2 = new String("Orange");
+//	 System.out.println(nome2);
+//	 
+//	 String nome3 = "Avocado";
+//	 System.out.println(nome3);
+//	 
+//	 
+//	 String descricao = "Tipo Gala \nA maça mais doce do mercado!";
+//	 System.out.println(descricao);
+//			 
+//	 String descricao2 = "Tipo Gala \tA maça mais doce do mercado!";
+//	 System.out.println(descricao2);
+//	 
+//	 String descricao3 = "Tipo Gala: \"A maçã mais doce do mercado!\"";
+//	 System.out.println(descricao3);
+//	
 		
+	String nome = new String("Maçã");
+	String descricao = new String("Tipo Gala, maçã mais doce do mercado!");
+	
+	String propaganda = nome+ " " + descricao;
+	System.out.println(propaganda);
+	
+	
+	propaganda = nome.concat(" ").concat(descricao);
+	System.out.println(propaganda);
+	
+	propaganda += "***";
+	System.out.println(propaganda);
+	
 	}
 
 }
