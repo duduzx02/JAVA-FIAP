@@ -22,3 +22,13 @@
 - Para criar uma exceção, basta criar uma classe que herde de Exception(checked) ou RuntimeExpception (unchecked).
 
 - Por padrão, as exceções no java termina com Exception.
+
+## ACESSO A ARQUIVOS
+
+- O armazenamento de dados em variáveis, arrays, coleções, ou qualquer outra estrutura de dados em memória, é temporário.
+
+- Os arquivos são muito úteis para armazenar as configurações do programa, ao invés de colocar as configurações diretamente no código fonte. A grande vantagem disso é a possibilidade de alterar o aqruivo de configurações sem a necessidade de recompilar e empacotar todo o programa novamente.
+
+- Todas as entradas e saídas em Java são definidas em termos de fluxos, ou streams. Stream é uma conexão para uma fonte de dados ou um destiono de dados.
+
+As classes para manupular os arquivos ficam dentro do pacote java.io. Duas classes que podemos utilizar para a escrita em arquivo são: java.io.FileWriter e java.io.PrintWriter.
