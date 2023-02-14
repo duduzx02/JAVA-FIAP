@@ -12,3 +12,7 @@
 	- Checked: exceção que deve ser tradada ou relançada pelo desenvolvedor
 	- Unchecked: exceção que pode ser tratada ou relançada pelo programador. Se a exceção não for tratada, ela será automaticamente relançada.
 	- Error: erro crítico, utilizado pelo JVM para indicar que existe um problema que não permite a execução do programa continuar.
+	
+## PROPAGAÇÃO DE EXCEÇÕES
+
+- Um método pode opter por não tratar a exceção e simplesmente propagá-la, ou melhor, delefar para o método que a chamou. A cláusula throws declara exceções que podem ser lançadas em determinados métodos.
