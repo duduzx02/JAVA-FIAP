@@ -16,3 +16,9 @@
 ## PROPAGAÇÃO DE EXCEÇÕES
 
 - Um método pode opter por não tratar a exceção e simplesmente propagá-la, ou melhor, delefar para o método que a chamou. A cláusula throws declara exceções que podem ser lançadas em determinados métodos.
+
+## CRIAÇÃO DE EXCEÇÕES
+
+- Para criar uma exceção, basta criar uma classe que herde de Exception(checked) ou RuntimeExpception (unchecked).
+
+- Por padrão, as exceções no java termina com Exception.
